@@ -19,6 +19,10 @@ h1, h2{
     letter-spacing: 4px;
     color: red;
 }
+header{
+    background-color: black;
+    height:75px;
+}
 
 
 
@@ -36,6 +40,7 @@ h1, h2{
 #menu{
     font-size: 110%;
     letter-spacing: 4px;
+    
 }
 
 #menu li{
@@ -55,4 +60,37 @@ h1, h2{
 
 .active{
     border-bottom: 1px solid #D49B17;
+}
+/* hero image */
+#hero-outer {
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+#hero-image {
+    height: 800px;
+    width: 100%;
+    background: url('../images/Webp.net-resizeimage\ \(1\).jpg') no-repeat center center;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    
+    width: 500px;
+    height: 150px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(0, 0, 0, .7);
+
+    bottom: 60%;
+    right: 40%;
+    position: absolute;
 }
