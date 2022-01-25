@@ -73,15 +73,12 @@ header{
     width: 100%;
     overflow: hidden;
     position: relative;
-    border-radius: 15px;
-
 }
 
 #hero-image {
     height: 800px;
     width: 100%;
     background: url('../images/Webp.net-resizeimage\ \(1\).jpg') no-repeat center center;
-    border-radius: 15px;
 }
 
 #cover-text {
@@ -153,4 +150,10 @@ footer{
     margin: 1%;
     padding: 5%;
     color: red;
+}
+
+/* form page */
+#form-image{
+    background: url('../images/Webp.net-resizeimage\ \(2\).jpg') no-repeat center center;
+    height: 800px;
 }
