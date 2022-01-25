@@ -10,6 +10,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 300;
     color: #D49B17;
+    background-color: black;
 }
 /* headings and logo */
 
@@ -57,16 +58,22 @@ header{
 #menu a:hover{
     border-bottom: 1px solid #D49B17;
 }
+#menu li:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
 
 .active{
     border-bottom: 1px solid #D49B17;
 }
 /* hero image */
 #hero-outer {
-    height: 900px;
+    height: 800px;
     width: 100%;
     overflow: hidden;
     position: relative;
+    border-radius: 15px;
 
 }
 
@@ -74,6 +81,7 @@ header{
     height: 800px;
     width: 100%;
     background: url('../images/Webp.net-resizeimage\ \(1\).jpg') no-repeat center center;
+    border-radius: 15px;
 }
 
 #cover-text {
@@ -82,8 +90,8 @@ header{
     text-transform: uppercase;
     letter-spacing: 4px;
     
-    width: 500px;
-    height: 150px;
+    width: 450px;
+    height: 130px;
 
     padding-top: 40px;
     padding-left: 10px;
@@ -93,4 +101,56 @@ header{
     bottom: 60%;
     right: 40%;
     position: absolute;
+    border-radius: 15px;
+}
+
+/* book classes button */
+.book {
+    /* should be crust color */
+	color: #D49B17  ;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: red;
+	padding: 20px;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+    position:absolute;
+    bottom: 54%;
+    right: 37%;
+    font-size: 200%;
+}
+
+.book:hover {
+    color:red;
+	background: #D49B17;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+
+
+
+
+
+/* footer */
+footer{
+    height:10px;
+}
+
+.social-networks {
+    text-align:center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: red;
 }
