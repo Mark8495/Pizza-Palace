@@ -153,13 +153,33 @@ footer{
 }
 
 .social-networks i:hover{
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
 }
 
 /* form page */
 #form-image{
     background: url('../images/Webp.net-resizeimage\ \(2\).jpg') no-repeat center center;
     height: 800px;
+}
+.booking-form{
+    background-color:rgba(0, 0, 0, .4);
+    max-width: 350px;
+
+    padding: 25px;
+
+    position: absolute;
+    top:70%;
+    right:50%;
+    
+}
+.text-form{
+    background: transparent;
+    color:inherit;
+    width:100%;
+    height:30px;
+    margin: 5px;
+    border: 1px solid #D49B17;
+    border-radius: 5px;
 }

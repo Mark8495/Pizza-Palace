@@ -60,19 +60,28 @@
         <form class="booking-form" method="#" action="#"> 
             <h2>Tell us your Favourite Food for a 10% discount! <i class="fas fa-pizza-slice"></i></h2>
             <label for="fname">First Name</label>
-            <input id="fname" class="text-input" type="text" name="first_name" required />
+            <input id="fname" class="text-form" type="text" name="first_name" required />
             <label for="lname">Last Name</label>
-            <input id="lname" class="text-input" type="text"  name="last_name" required />
+            <input id="lname" class="text-form" type="text"  name="last_name" required />
             <label for="email">Email Address</label>
-            <input id="email" class="text-input" type="email" name="email_address" required/>
+            <input id="email" class="text-form" type="email" name="email_address" required/>
             <label for="times">Choose a day:</label>
-            <select id="times" name="times">
+            <select id="times" name="times" required>
                 <option value="Monday">Monday</option>
                 <option value="Wednesday">Wednesday</option>
                 <option value="friday">Friday</option>
                 <option value="Saturday">Saturday</option>
                 <option value="Sunday">Kid's Class</option>
               </select>
+              <h4>Favourite Food!</h4>
+              <label for="pizza">Pizza</label>
+              <input type="radio" id="pizza" name="favFood" value="pizza" required>
+              <label for="pasta">Pasta</label>
+              <input type="radio" id="pasta" name="favFood" value="pasta" required>
+              <label for="icecream">Ice Cream</label>
+              <input type="radio" id="icecream" name="favFood" value="icecream" required>
+              <input type="submit" class="form-button" value="Book A Class!">
+
 
         </form>
     </main>
