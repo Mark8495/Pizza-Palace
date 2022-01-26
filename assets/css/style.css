@@ -95,7 +95,7 @@ header{
 
     background-color: rgba(0, 0, 0, .7);
 
-    bottom: 60%;
+    bottom: 50%;
     right: 40%;
     position: absolute;
     border-radius: 15px;
@@ -103,8 +103,7 @@ header{
 
 /* book classes button */
 .book {
-    /* should be crust color */
-	color: #D49B17  ;
+    color:black;
 	text-transform: uppercase;
 	text-decoration: none;
 	background: red;
@@ -114,13 +113,13 @@ header{
 	border: none;
 	transition: all 0.4s ease 0s;
     position:absolute;
-    bottom: 54%;
+    bottom: 44%;
     right: 37%;
     font-size: 200%;
 }
 
 .book:hover {
-    color:red;
+    color:black;
 	background: #D49B17;
 	letter-spacing: 1px;
 	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
@@ -162,20 +161,21 @@ footer{
 
 /* time table */
 #timesheet div {
-    border: 1px solid red;
+    border: 2px solid #D49B17;
     box-sizing: border-box;
     width: 20%;
     padding: 20px;
     text-align: center;
     float:left;
     height:150px;
-    background-color:rgba(0, 0, 0, .7) ;
+    background-color:rgba(0, 0, 0, .8) ;
 }
 #class-times{
     font-size: 150%;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 4px;
+    border-top: 2px solid #D49B17;
     
     
 }
@@ -242,4 +242,15 @@ select{
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
+}
+
+.radio{
+    width: 30%;
+}
+
+
+/* about us and map */
+#aboutus{
+    text-align: center;
+    font-size: 150%;
 }
