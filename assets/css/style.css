@@ -282,3 +282,39 @@ form span h3{
 #photos > img{
     width: 100%
 }
+
+
+
+
+@media screen and (max-width: 1200px){
+    #photos{
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width:950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    #cover-text{
+        left:0;
+    }
+    
+}
+
+@media screen and (max-width: 800px){
+    #photos{
+        column-count: 2;
+    }
+    .book{
+        right:0;
+        bottom: 45%;
+    }
+    iframe{
+        width: 100%;
+    }
+}
