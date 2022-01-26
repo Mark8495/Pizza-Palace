@@ -216,6 +216,16 @@ footer{
     -ms-transform: scale(1.05);
     transform: scale(1.05);
 }
+select{
+    color: black;
+    background-color: #D49B17;
+    font-size: 130%;
+}
+.select-text{
+    font-size: 130%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
 .form-button{
     background-color: #D49B17;
