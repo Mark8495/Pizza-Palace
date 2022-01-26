@@ -152,6 +152,12 @@ footer{
     color: red;
 }
 
+.social-networks i:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
 /* form page */
 #form-image{
     background: url('../images/Webp.net-resizeimage\ \(2\).jpg') no-repeat center center;
