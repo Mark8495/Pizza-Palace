@@ -34,6 +34,12 @@ header{
     color:red;
 }
 
+#logo:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 #menu, #logo{
     line-height: 75px;
 }
@@ -134,7 +140,7 @@ header{
 
 /* footer */
 footer{
-    height:10px;
+    border-top: 2px solid #D49B17;
 }
 
 .social-networks {
@@ -189,14 +195,14 @@ footer{
 }
 
 .booking-form{
-    background-color:rgba(0, 0, 0, .4);
+    background-color:rgba(0, 0, 0, .7);
     max-width: 350px;
 
     padding: 25px;
 
     position: absolute;
-    top:40%;
-    right:30%;
+    top:35%;
+    right: 44%;
     
 }
 
@@ -244,13 +250,35 @@ select{
     transform: scale(1.1);
 }
 
-.radio{
+form span h3{
     width: 30%;
 }
 
+
+/* form response table */
+#response{
+    text-align: center;
+}
+#response p{
+    font-size: 180%;
+    text-transform: capitalize;
+    width:50%;
+    margin-left: 25%;
+}
 
 /* about us and map */
 #aboutus{
     text-align: center;
     font-size: 150%;
+}
+
+/* gallery */
+#photos{
+    clear:both;
+    line-height: 0;
+    column-count: 4;
+    column-gap:0;
+}
+#photos > img{
+    width: 100%
 }
