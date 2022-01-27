@@ -24,7 +24,7 @@
         </nav>
     </header>
     <main>
-        <section id="timesheet">
+        <!-- <section id="timesheet">
             <section id="class-times"><h2>Class Times</h2></section>
             <div>
                 <h2>Pizza<i class="fas fa-pizza-slice"></i></h2>
@@ -57,41 +57,84 @@
                 <h3>Sunday</h3>
                 <h3>2 hours</h3>
                 <h3>11:30</h3>
+            </div> -->
+
+
+        <section id="booking-container">  
+            <section id="form-image"></section>
+            <div class="booking-classtimes">
+                <div class="booking1">
+                    <section id="timesheet" class="booking-right-side">
+                    <section id="class-times"><h2>Class Times</h2></section>
+                    <div>
+                        <h2>Pizza<i class="fas fa-pizza-slice"></i></h2>
+                        <br>
+                        <h3>Monday</h3>
+                        <h3>1 hour</h3>
+                        <h3>18:30</h3>
+                    </div>
+                    <div>
+                        <h2>Pasta & Pizza<i class="fas fa-egg"></i></h2>
+                        <h3>Wednesday</h3>
+                        <h3>2 hours</h3>
+                        <h3>18:30</h3>
+                    </div>
+                    <div>
+                        <h2>Pizza <i class="fas fa-pizza-slice"></i></h2>
+                        <br>
+                        <h3>Friday</h3>
+                        <h3>1 hour</h3>
+                        <h3>18:30</h3>
+                    </div>
+                    <div>
+                        <h2>Pasta & Pizza<i class="fas fa-egg"></i></h2>
+                        <h3>Saturday</h3>
+                        <h3>2 hours</h3>
+                        <h3>10:30</h3>
+                    </div>
+                    <div>
+                    <h2>Kiddies class<i class="fas fa-child"></i></h2>
+                        <h3>Sunday</h3>
+                        <h3>2 hours</h3>
+                        <h3>11:30</h3>
+                    </div>
+                </div>
+
+
+                <div class="booking2">
+                <form class="booking-form booking-left-side" method="GET" action="formresponse.html"> 
+                    <h2>Tell us your Favourite Food for a 10% discount! <i class="fas fa-pizza-slice"></i></h2>
+                <label for="fname">First Name</label>
+                <input id="fname" class="text-form" type="text" name="first_name" required />
+                <label for="lname">Last Name</label>
+                <input id="lname" class="text-form" type="text"  name="last_name" required />
+                <label for="email">Email Address</label>
+                <input id="email" class="text-form" type="email" name="email_address" required/>
+                <label for="times" class="select-text">Choose a day:</label>
+                <select id="times" name="times" required>
+                    <option value="Monday">Monday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="friday">Friday</option>
+                    <option value="Saturday">Saturday</option>
+                    <option value="Sunday">Kid's Class</option>
+                </select>
+              
+              
+                <h2>Favourite Food!</h2>
+                <label for="pizza"><span class="radio"><h3>Pizza</h3></span></label>
+                <input type="radio" id="pizza" name="favFood" value="pizza" required>
+                <label for="pasta"><span class="radio"><h3>Pasta</h3></span></label>
+                <input type="radio" id="pasta" name="favFood"   value="pasta" required>
+                <label for="icecream"><span class="radio"><h3>Ice Cream</h3></span></label>
+                <input type="radio" id="icecream" name="favFood"   value="icecream" required> 
+                <br>
+                <input type="submit" class="form-button" value="Book A Class!">
+                  
+
+                </form>
+                </div>
             </div>
-
-
-
-        <section id="form-image"></section>
-        <form class="booking-form" method="GET" action="formresponse.html"> 
-            <h2>Tell us your Favourite Food for a 10% discount! <i class="fas fa-pizza-slice"></i></h2>
-            <label for="fname">First Name</label>
-            <input id="fname" class="text-form" type="text" name="first_name" required />
-            <label for="lname">Last Name</label>
-            <input id="lname" class="text-form" type="text"  name="last_name" required />
-            <label for="email">Email Address</label>
-            <input id="email" class="text-form" type="email" name="email_address" required/>
-            <label for="times" class="select-text">Choose a day:</label>
-            <select id="times" name="times" required>
-                <option value="Monday">Monday</option>
-                <option value="Wednesday">Wednesday</option>
-                <option value="friday">Friday</option>
-                <option value="Saturday">Saturday</option>
-                <option value="Sunday">Kid's Class</option>
-              </select>
-              
-              
-              <h2>Favourite Food!</h2>
-               <label for="pizza"><span class="radio"><h3>Pizza</h3></span></label>
-              <input type="radio" id="pizza" name="favFood" value="pizza" required>
-              <label for="pasta"><span class="radio"><h3>Pasta</h3></span></label>
-              <input type="radio" id="pasta" name="favFood"   value="pasta" required>
-              <label for="icecream"><span class="radio"><h3>Ice Cream</h3></span></label>
-              <input type="radio" id="icecream" name="favFood"   value="icecream" required> 
-              <br>
-              <input type="submit" class="form-button" value="Book A Class!">
-
-
-        </form>
+        </section>      
     </main>
     <footer>
         <ul class="social-networks">

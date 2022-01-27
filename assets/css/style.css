@@ -23,6 +23,7 @@ h1, h2{
 header{
     background-color: black;
     height:75px;
+    
 }
 
 
@@ -164,28 +165,57 @@ footer{
 }
 
 
+.booking-classtimes{
+    display: flex;
+    position: absolute;
+    top: 8%
+}
+.booking1{
+    flex:1;
+}
+.booking2{
+    flex:1;
+}
 
 /* time table */
+#timesheet{
+    
+    position: absolute;
+    width: 35vw;
+    float: left;
+}
 #timesheet div {
+
+    width: 100%;
+    clear:both;
+    height: 130px;
+    padding-top: 9px;
+    background-color: rgba(0, 0, 0, .7);
     border: 2px solid #D49B17;
+    
+    text-align: center;
+    
+    /* border: 2px solid #D49B17;
     box-sizing: border-box;
     width: 20%;
     padding: 20px;
     text-align: center;
     float:left;
     height:150px;
-    background-color:rgba(0, 0, 0, .8) ;
+    background-color:rgba(0, 0, 0, .8) ; */
 }
 #class-times{
+
     font-size: 150%;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 4px;
-    border-top: 2px solid #D49B17;
+    border: 2px solid #D49B17;
+    width: inherit;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, .7);
     
     
 }
-
 
 
 /* form page */
@@ -194,19 +224,30 @@ footer{
     height: 800px;
 }
 
-.booking-form{
-    background-color:rgba(0, 0, 0, .7);
-    max-width: 350px;
-
-    padding: 25px;
-
-    position: absolute;
-    top:35%;
-    right: 44%;
+ .booking-container{
     
-}
+    /* margin: 0 auto;
+    display: flex;
+    position: absolute;
+    top: 30%; */
+    width: 100vw;
+    float: right;
+ }
 
-.text-form{
+
+ .booking-form{
+    background-color:rgba(0, 0, 0, .7);
+    
+    height: fit-content; 
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 80px;
+
+    
+    
+} 
+
+ .text-form{
     background: transparent;
     color:inherit;
     width:100%;
@@ -250,9 +291,7 @@ select{
     transform: scale(1.1);
 }
 
-form span h3{
-    width: 30%;
-}
+
 
 
 /* form response table */
@@ -290,9 +329,45 @@ form span h3{
     #photos{
         column-count: 3;
     }
+    #class-times{
+        border: none;
+        font-size: 100%;
+        text-align: center;
+        margin-top: 60px;
+        border-top: 3px solid #D49B17;
+        padding: 10px;
+    } 
+    #timesheet{
+        height: 800px;
+    }
+    
+    #timesheet > div{
+        width: 100%;
+        clear:both;
+        height: 150px;
+        padding-top: 10px;
+        background-color: rgba(0, 0, 0, 1);
+    }
+    /* #form-image{
+        clear:both;
+    } */
+    /* .booking-form{
+        position: absolute;
+        top: 135%;
+        right: 0;
+        left: 0;
+
+    } */
+    #footer{
+        position: static;
+        bottom: 0%;
+    }
 }
 
 @media screen and (max-width:950px) {
+    header{
+        height: 100px;
+    }
     #menu {
         clear: left;
         float: left;
@@ -302,6 +377,25 @@ form span h3{
     }
     #cover-text{
         left:0;
+    }
+    #booking-container{
+        height: 1550px;
+    }
+    .booking-classtimes{
+        flex-direction: column-reverse;
+        clear: both;
+        width: 100%;
+        
+
+    }
+    .booking1{
+        width: 100vw;
+        float: left;
+        width: 100vw;
+        
+    }
+    #timesheet{
+        width: 100vw;
     }
     
 }
