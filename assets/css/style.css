@@ -329,7 +329,8 @@ select{
     height: 750px;
 }
 #aboutus p{
-    width: 100px;
+    font-size: 120%;
+    padding: 20px;
 }
 .aboutusmap{
     width: 100vw;
@@ -450,6 +451,7 @@ select{
     #form-image{
         height: 700px;
     }
+    
 }
 
 @media screen and (max-width: 800px){
@@ -462,5 +464,8 @@ select{
     }
      iframe{
         width: 100%;
+    }
+    #aboutus{
+        height: 1430px;
     } 
 }
