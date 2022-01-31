@@ -13,3 +13,14 @@ You can view the live site here - <a href="" target="blank" rel=noopener>Pizza P
 In my first project. I wanted to develop a simple website that would be beneficial for any business to have. The main objective was to present my skills in HTMl and CSS.
 
 # User Experience
+
+
+# Features
+
+
+# Technologies Used
+
+# Testing
+
+
+# Deployment
