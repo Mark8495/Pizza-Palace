@@ -427,7 +427,7 @@ select{
         column-count: 1;
     }
     .book{
-        right:0;
+        right:10%;
         bottom: 47%;
     }
      iframe{
@@ -447,4 +447,13 @@ select{
 
     }
     
+}
+@media screen and (max-width: 600px){
+    #cover-text{
+        top: 20%
+    }
+    .book{
+        bottom: 40%;
+        right:0;
+    }
 }
