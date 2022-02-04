@@ -448,12 +448,14 @@ select{
     }
     
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 450px){
     #cover-text{
-        top: 20%
+        top: 15%;
+        height: 200px;
     }
     .book{
-        bottom: 40%;
+        bottom: 30%;
         right:0;
+        width: 90vw;
     }
 }
