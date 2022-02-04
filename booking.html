@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,10 @@
     <meta name="description" content="Pizza Palace, Pizza Lessons for all ages!">
     <meta name="keywords" content="love running, running club, ireland, dublin">
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
     <title>Pizza Palace</title>
 </head>
+
 <body>
     <header>
         <!-- Logo for Site -->
@@ -21,56 +23,64 @@
             <ul>
                 <li><a href="booking.html" class="active">Classes</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="index.html" >Home</a></li>
+                <li><a href="index.html">Home</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <!-- Booking Form for classes plus discount. -->
-         </section>
-        <section id="booking-container">  
+        
+        <section id="booking-container">
             <!-- image taken from  https://www.pexels.com/photo/two-pizza-in-stove-1093015/-->
             <!-- background image for the form -->
             <section id="form-image"></section>
-            
-                <form class="booking-form booking-left-side" method="GET" action="formresponse.html"> 
-                    <h2>Tell us your Favourite Food for a 10% discount! <i class="fas fa-pizza-slice"></i></h2>
+
+            <form class="booking-form booking-left-side" method="GET" action="formresponse.html">
+                <h2>Tell us your Favourite Food for a 10% discount! <i class="fas fa-pizza-slice"></i></h2>
                 <label for="fname">First Name</label>
                 <input id="fname" class="text-form" type="text" name="first_name" required />
                 <label for="lname">Last Name</label>
-                <input id="lname" class="text-form" type="text"  name="last_name" required />
+                <input id="lname" class="text-form" type="text" name="last_name" required />
                 <label for="email">Email Address</label>
-                <input id="email" class="text-form" type="email" name="email_address" required/>
+                <input id="email" class="text-form" type="email" name="email_address" required />
                 <label for="times" class="select-text">Choose a day:</label>
                 <select id="times" name="times" required>
-                    <option>Any Time!</option>
+                    <option></option>
                     <option value="Monday">Monday</option>
                     <option value="Wednesday">Wednesday</option>
                     <option value="friday">Friday</option>
                     <option value="Saturday">Saturday</option>
                     <option value="Sunday">Kid's Class</option>
                 </select>
-              
+
                 <!-- favourite food selector for discount -->
                 <h2>Favourite Food!</h2>
-                <label for="pizza"><h3>Pizza</h3></label>
+                <label for="pizza">
+                    Pizza
+                </label>
                 <input type="radio" id="pizza" name="favFood" value="pizza" required>
-                <label for="pasta"><h3>Pasta</h3></label>
-                <input type="radio" id="pasta" name="favFood"   value="pasta" required>
-                <label for="icecream"><h3>Ice Cream</h3></label>
-                <input type="radio" id="icecream" name="favFood"   value="icecream" required> 
+                <label for="pasta">
+                    Pasta
+                </label>
+                <input type="radio" id="pasta" name="favFood" value="pasta" required>
+                <label for="icecream">
+                    Ice Cream
+                </label>
+                <input type="radio" id="icecream" name="favFood" value="icecream" required>
                 <br>
                 <input type="submit" class="form-button" value="Book A Class!">
-                  
 
-                </form>
-                
+
+            </form>
+
             </div>
-        </section>    
-        
+        </section>
+
         <!-- class times and dates -->
         <section id="timesheet">
-            <section id="class-times"><h2>Class Times</h2></section>
+            <section id="class-times">
+                <h2>Class Times</h2>
+            </section>
             <div>
                 <h2>Pizza<i class="fas fa-pizza-slice"></i></h2>
                 <br>
@@ -98,11 +108,11 @@
                 <h3>10:30</h3>
             </div>
             <div>
-            <h2>Kiddies class<i class="fas fa-child"></i></h2>
+                <h2>Kiddies class<i class="fas fa-child"></i></h2>
                 <h3>Sunday</h3>
                 <h3>2 hours</h3>
                 <h3>11:30</h3>
-            </div> 
+            </div>
         </section>
     </main>
     <footer>
@@ -110,16 +120,21 @@
             <!-- Social Media Links and Icons -->
             <ul class="social-networks">
                 <li>
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our facebook page(opens in new tab)"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our facebook page(opens in new tab)"><i
+                            class="fab fa-facebook-square"></i></a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Visit our twitter page(opens in new tab)"><i class="fab fa-twitter"></i></a>
+                    <a href="https://twitter.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our twitter page(opens in new tab)"><i class="fab fa-twitter"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our Youtube page(opens in new  tab)"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Youtube page(opens in new  tab)"><i class="fab fa-youtube"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page(opens in new tab)"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page(opens in new tab)"><i class="fab fa-instagram"></i></a>
                 </li>
             </ul>
         </div>
