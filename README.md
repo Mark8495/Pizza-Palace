@@ -1,12 +1,19 @@
 # **_Pizza Palace - Project Portfolio 1 - HTML & CSS_**
-Pizza Palace is a small company that encourages users to come and take their class. This site is targeted at the individuals who have not yet taken a class and are either finding the website organically through, finish this.
+Pizza Palace is a small company that encourages users to come and take their pizza making masterclass. This site is targeted at the individuals who have not yet taken a class and are either finding the website organically through, finish this.
 
 You can view the live site here - <a href="" target="blank" rel=noopener>Pizza Palace</a>
 
 # Contents
-
-
-
+- [ Objectives ](#objective)
+- [User Experience](#user-experience)
+    -[Design](#design)
+    -[Site Structure](#site-structure)
+    -[Design Choices](#design-choices)
+- [Features](#features)
+- [Technology](#technology)
+-[Testing](#testing)
+-[Deployment](#deployment)
+-[Credits](#credits)
 
 # Objective
 
@@ -24,6 +31,7 @@ The website for Pizza Palace is set over four webpages with three navigations li
 ## Design Choices
 I wanted the colours of the Site to stand out, so making a simple pallette that represented the colours of pizza was the way I decided to go. Focusing on Red or crust colour fonts for all scripts works well together. I chose the font Quicksand for all titles. I think the font is clean and simple.
 
+[Back to Table of contents](#contents)
 
 # Features
 The Pizza Palace website is designed to be easy to use. It contains all the standard features that users would be familiar with. The overall feel of the website is to be as simple and straightforward as possible.
@@ -50,7 +58,7 @@ The gallery has a layout of stock photos that would give the user a sense of wha
 I wanted the booking page to be straightforward. With a simple sign in sheet to display interest in the classes. Along with
 
 ### Footer
-
+I wanted the footer to continue the clean layout along with the rest of the page. I didn't want any text, and only the simple icons of the social media to complete a clear and crisp look that is very intuitive.
 
 ## Future Features
 
@@ -66,9 +74,54 @@ A more complete Booking experience. Where they could go through the whole bookin
 
 A simple newsletter service that would send out promotions and events to the users who opt in for the service.
 
+[Back to Table of contents](#contents)
+
 # Technologies Used
+### HTML5
+* As a structure language.
+
+### CSS
+* As a style language.
+
+### Bootstrap 
+* Bootstrap@4.5.3 as a CSS framework to keep responsive, mobile first aproach.
+
+### Font Awesome
+* As an icon library for a social links.
+
+### Google fonts
+* As a font resource.
+
+### GitHub
+* As a software hosting platform to keep project in a remote location.
+
+### Git
+* As a version-control system tracking.
+
+### Gitpod
+* As a development hosting platform.
+
+
 
 # Testing
+I used Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
 
-
+## Code Validation
+At the and of the project I used two websites to validate a code
+ 
+ * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
+ * [Nu Html Checker](https://validator.w3.org/) to test HTML
 # Deployment
+The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to git version control system.
+I used push command in Gitpod to save changes into GitHub.
+
+# Credits
+* To complete this project I used Code Institute student template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
+* I also took inspiration from Code Institutes Love Running Website [Love Running Github](https://github.com/Code-Institute-Org/love-running-2.0)
+
+
+### Map
+*
+
+### Images
+*
