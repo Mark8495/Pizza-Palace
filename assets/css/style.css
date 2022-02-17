@@ -36,8 +36,6 @@ header{
 }
 
 #logo:hover{
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
 
@@ -66,8 +64,6 @@ header{
     border-bottom: 1px solid #D49B17;
 }
 #menu li:hover{
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
 
@@ -124,7 +120,7 @@ header{
     right: 37%;
     font-size: 200%;
 }
-
+/* Hover designs taken from https://www.fabriziovanmarciano.com/button-styles/ */
 .book:hover {
     color:black;
 	background: #D49B17;
@@ -159,8 +155,6 @@ footer{
 }
 
 .social-networks i:hover{
-    -webkit-transform: scale(1.4);
-    -ms-transform: scale(1.4);
     transform: scale(1.4);
 }
 
@@ -169,10 +163,7 @@ footer{
 
 /* time table */
 #timesheet{
-    
-    
     width: 100vw;
-    
 }
 #timesheet > div {
 
@@ -233,8 +224,6 @@ footer{
 
 .text-form:hover{
     border-color: red;
-    -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
     transform: scale(1.05);
 }
 select{
@@ -255,13 +244,11 @@ select{
     padding:15px;
     text-align: center;
     margin-top: 20px;
-    margin-left: 60px;
+    
     
 }
 .form-button:hover{
     background-color:red;
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
 
