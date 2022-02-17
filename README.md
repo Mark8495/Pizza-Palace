@@ -118,6 +118,18 @@ A simple newsletter service that would send out promotions and events to the use
 # Testing
 I used Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
 
+
+## Home Page
+![Lighthouse Testing Home page](assets/READMEImages/lighthouseindex.png)
+
+
+## Gallery Page
+![Lighthouse Testing Gallery](assets/READMEImages/lighthousegallery.png)
+
+
+## Booking Page
+![Lighthouse Testing Booking Page](assets/READMEImages/bookingpagelighthouse.png)
+
 ## Code Validation
 At the and of the project I used two websites to validate a code
  
@@ -126,6 +138,14 @@ At the and of the project I used two websites to validate a code
 # Deployment
 The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to git version control system.
 I used push command in Gitpod to save changes into GitHub.
+--
+How To deploy in Github Pages
+1. Go to the repository on GitHub.com
+2. Select 'Settings' near the top of the page.
+3. Select 'Pages' from the menu bar on the left of the page.
+4. Under 'Source' select the 'Branch' dropdown menu and select the main branch.
+5. Once selected, click the 'Save'.
+6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
 
 # Credits
 * To complete this project I used Code Institute student template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
