@@ -45,6 +45,7 @@ I wanted the colours of the Site to stand out, so making a simple pallette that 
 # Features
 The Pizza Palace website is designed to be easy to use. It contains all the standard features that users would be familiar with. The overall feel of the website is to be as simple and straightforward as possible.
 ![Responsive Design Image](assets/READMEImages/responsivedesignpizza.png)
+
 ## Existing Features
 
 ### Navigation Menu
@@ -63,6 +64,7 @@ The about section lets the user know about what time the classes are on, the mis
 ### Gallery
 ![Gallery Page](/assets/READMEImages/gallery.png)
 The gallery has a layout of stock photos that would give the user a sense of what the classes entail and the benefits that they would have.
+I used 
 
 ### Booking Form
 ![Booking Form Page](/assets/READMEImages/bookingform.png)
@@ -94,9 +96,6 @@ A simple newsletter service that would send out promotions and events to the use
 
 ### CSS
 * As a style language.
-
-### Bootstrap 
-* Bootstrap@4.5.3 as a CSS framework to keep responsive, mobile first aproach.
 
 ### Font Awesome
 * As an icon library for a social links.
@@ -153,7 +152,13 @@ How To deploy in Github Pages
 
 
 ### Map
-*
-
+* I used this [Google Map generator](https://google-map-generator.com/) to generate the map I used in the about us section.
+ 
 ### Images
-*
+* I used [IstockPhotos](https://www.istockphoto.com/) to find the stock images used for the gallery page and the background of the Home and Form page. Individual Image links were given on the gallery page html. 
+
+
+## Special Thanks
+To the Code Institute course material that gave me the knowledge and confidence to complete this project.
+
+To my mentor Adegbenga Adeye who gave me great help and directions throughout the project
