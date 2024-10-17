@@ -1,4 +1,4 @@
-# **_Pizza Palace - Project Portfolio 1 - HTML & CSS_**
+# **_Pizza Palace - HTML & CSS_**
 Pizza Palace is a small company that encourages users to come and take their pizza making masterclass. This site is targeted at the individuals who have not yet taken a class and are either finding the website organically through, finish this.
 
 You can view the live site here - <a href="" target="blank" rel=noopener>Pizza Palace</a>
